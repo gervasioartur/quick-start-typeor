@@ -1,5 +1,5 @@
-import { AppDataSource } from '../../data-source';
-import { Category } from '../entities/Category.entity';
+import { AppDataSource } from '../../../data-source';
+import { Category } from '../../entities/Category.entity';
 
 type CategoryRequest = {
   name: string;
