@@ -9,7 +9,7 @@ export const AppDataSource = new DataSource({
   password: 'docker',
   database: 'postgres',
   logging: false,
-  entities: ['src/models/**/*.ts'],
-  migrations: ['src/database/migration/**/*.ts'],
-  subscribers: ['src/subcriber/**/*.ts'],
+  entities: ['./src/app/models/**/*.ts'],
+  migrations: ['./src/database/migrations/**/*.ts'],
+  subscribers: ['./src/app/subcriber/**/*.ts'],
 });
