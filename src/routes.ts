@@ -14,7 +14,7 @@ const routes = Router();
 /**
  * [x] C - CREATE
  * [x] R - READ
- * [?] U - UPDATE
+ * [x] U - UPDATE
  * [x] D - DELETE
  */
 
