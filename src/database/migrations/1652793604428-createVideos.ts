@@ -29,7 +29,7 @@ export class createVideos1652793604428 implements MigrationInterface {
             type: 'numeric',
           },
           {
-            name: 'created-at',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
